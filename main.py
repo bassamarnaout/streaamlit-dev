@@ -7,25 +7,25 @@ from datetime import time
 # from matplotlib import pyplot as plt
 import numpy as np
 
-# # Hide MainMenu item
-# st.markdown("""
-# <style>
-# .st-emotion-cache-iiif1v.ef3psqc3
-# {
-#     visibility: hidden          
-# }
-# </style>
-# """, unsafe_allow_html= True)
+# Hide MainMenu item
+st.markdown("""
+<style>
+.st-emotion-cache-iiif1v.ef3psqc3
+{
+    visibility: hidden          
+}
+</style>
+""", unsafe_allow_html= True)
 
-# # Hide Deploy Button
-# st.markdown("""
-# <style>
-# .st-emotion-cache-1wbqy5l.e17vllj40
-# {
-#     visibility: hidden          
-# }
-# </style>
-# """, unsafe_allow_html= True)
+# Hide Deploy Button
+st.markdown("""
+<style>
+.st-emotion-cache-1wbqy5l.e17vllj40
+{
+    visibility: hidden          
+}
+</style>
+""", unsafe_allow_html= True)
 
 # st.title("Hi! i am a streamlit web app!")
 
