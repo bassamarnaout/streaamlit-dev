@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import time as ts
 from datetime import time
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 import numpy as np
 
 # # Hide MainMenu item
@@ -211,11 +211,12 @@ st.header("Sidebar & Graphs In Streamlit", divider="red" )
 st.sidebar.write("This is my first side bar")
 opt = st.sidebar.radio("Select any graph", options=["Line", "Bar", "H-Bar"])
 if opt == "Line":
-    fig = plt.figure()
-    # print(plt.style.available)
-    plt.style.use("fivethirtyeight")
-    x = np.linspace(0,10,100)
-    plt.plot(x, np.sin(x))
-    plt.plot(x, np.cos(x))
-    st.write(fig)
+    st.write("line option was clicked")
+    # fig = plt.figure()
+    # # print(plt.style.available)
+    # plt.style.use("fivethirtyeight")
+    # x = np.linspace(0,10,100)
+    # plt.plot(x, np.sin(x))
+    # plt.plot(x, np.cos(x))
+    # st.write(fig)
 
